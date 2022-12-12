@@ -1,0 +1,119 @@
+html {
+  background-image: url("fondo1.jpg");
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+header{
+	background: rgba(114, 38, 38, 0.735);
+	justify-content: space-between;
+	padding: 0px 10px;
+	/*text-align: center;*/
+}
+table{
+	text-orientation: center;
+	border-collapse: collapse;
+	margin: auto auto auto;
+}
+table th{
+	border-right:  4px solid;
+	text-align: right;
+	margin: 0;
+}
+table,tr,td {
+	text-align: center;
+	padding: 3px;
+	width: calc(100% - 20px);
+	
+
+}
+select {
+   
+     font-size: 16px;
+     height: 45px;
+     padding: 3px;
+     width: 250px;
+  }
+
+
+.datos{
+	text-orientation: center;
+	border-collapse: collapse;
+	margin: auto auto auto;
+}
+.datos tr td{
+	text-align: center;
+	border: 1px solid;
+	padding: 5px;	
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	
+}
+
+form {
+	padding: 10px 10px;
+	background-color: #ededed;
+	margin: calc(17% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(50% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(45% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+	
+	padding: 15px 15px;
+	margin: 10px auto;
+	border-radius: 30px;
+	cursor: alias;
+}
+input[type='date']{
+	
+	width: calc(40% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+font-size: 16px}
+
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}

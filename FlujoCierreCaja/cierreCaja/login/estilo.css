@@ -1,0 +1,81 @@
+
+html {
+  background-image: url("../css/fondo1.jpg");
+}
+
+.logout_bntSesion{
+	background-color: #c0392b;
+    color: white;
+	margin-top:0px;
+    padding:5px;
+    width: 200px;
+    height: 65px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+
+.consul {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(11% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+
+
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: verdana; 
+	
+}
+
+header{
+	background: rgba(74, 134, 212, 0.747);
+	width: 100%;
+	padding: 0px 20px;
+
+
+	/*flex*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+
+	z-index: 1;
+}
+
+.register_btn{
+	background-color: #3498db;
+    color: white;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
+
+
+}
+
+
